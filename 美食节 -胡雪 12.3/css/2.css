@@ -1,0 +1,532 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+img {
+	width: 100%;
+	height: 100%;
+}
+
+ul,
+ol {
+	list-style: none;
+}
+
+header {
+	width: 100%;
+	height: 129px;
+	background-color: #c90000;
+}
+
+.head-inner {
+	width: 990px;
+	height: 100%;
+	margin: 0 auto;
+}
+
+.logo {
+	width: 184px;
+	height: 129px;
+	display: block;
+	float: left;
+	background: url(../img/meishi1/logo2.png)no-repeat;
+	background-position: -15px 9px;
+}
+
+.search {
+	height: 129px;
+	width: 430px;
+	float: left;
+	margin-left: 68px;
+	position: relative;
+}
+
+.search .ipt {
+	height: 16px;
+	border: 2px solid #fff;
+	width: 326px;
+	padding: 8px;
+	position: absolute;
+	top: 46px;
+	color: rgb(153, 153, 153);
+	border-top-left-radius: 4px;
+	font-size: 12px;
+	border-bottom-left-radius: 4px;
+}
+
+.search .ipt-one {
+	height: 36px;
+	width: 80px;
+	color: #fff;
+	border-top-right-radius: 4px;
+	background: #a8000f;
+	border-bottom-right-radius: 4px;
+	font-size: 14px;
+	position: absolute;
+	top: 46px;
+	line-height: 32px;
+	left: 344px;
+	border: 2px solid #fff;
+}
+
+.search .ipt-one:hover {
+	background: #890511;
+}
+
+.guild {
+	height: 129px;
+	float: right;
+}
+
+.guild .aa {
+	display: block;
+	height: 28px;
+	line-height: 28px;
+	float: left;
+	color: #fff;
+	font-size: 12px;
+	margin-top: 50px;
+	padding: 0px 10px;
+}
+
+.guild .a1 {
+	padding-left: 34px;
+	background: url(../img/meishi1/topdsflogin_icon.gif)3px 0px no-repeat;
+}
+
+.guild .a2 {
+	padding-left: 34px;
+	background: url(../img/meishi1/topdsflogin_icon.gif)3px -27px no-repeat;
+}
+
+.guild a:hover {
+	background: rgba(0, 0, 0, 0.3);
+	border-radius: 5px;
+}
+
+.guild .a1:hover {
+	background: rgba(0, 0, 0, 0.3) url(../img/meishi1/topdsflogin_icon.gif)3px 0px no-repeat;
+}
+
+.guild .a2:hover {
+	background: rgba(0, 0, 0, 0.3) url(../img/meishi1/topdsflogin_icon.gif)3px -27px no-repeat;
+}
+
+/* 导航栏 */
+.menu {
+	width: 100%;
+	height: 76px;
+	box-shadow: 2px 2px 4px rgb(0, 0, 0, 0.3);
+}
+
+.nav {
+	width: 990px;
+	height: 100%;
+	margin: 0 auto;
+}
+
+.nav li {
+	float: left;
+	position: relative;
+}
+
+.nav li>a {
+	display: block;
+	padding: 0 20px;
+	line-height: 76px;
+	text-align: center;
+	color: #444;
+	font-size: 18px;
+}
+
+.nav .list-a1 img {
+	width: 24px;
+	height: 24px;
+	margin-top: 6px;
+	vertical-align: top;
+	margin-left: -8px;
+}
+
+.nav .list-lione strong {
+	height: 72px;
+	border-bottom: 4px solid #ff3232;
+	display: inline-block;
+}
+
+.list-litwo-hover {
+	position: absolute;
+	width: 930px;
+	padding: 20px 30px;
+	background: #fafafa;
+	left: -76px;
+	top: 76px;
+	box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+	display: none;
+	z-index: 2;
+}
+
+.list-litwo-hover .dd {
+	padding: 0 0 15px 0;
+}
+
+.list-litwo-hover .pp {
+	color: #C90000;
+	font-size: 18px;
+}
+
+.list-litwo-hover a {
+	display: inline-block;
+	color: gray;
+	font-size: 12px;
+	padding-right: 10px;
+}
+
+.list-litwo-hover .dd-food {
+	width: 406px;
+	height: 226px;
+	position: absolute;
+	top: 100px;
+	right: -46px;
+}
+
+.list-litwo-hover2 {
+	left: -188px;
+}
+
+.list-litwo-hover2 .dd-food {
+	width: 325px;
+	height: 208px;
+}
+
+.nav li:hover .list-litwo-hover {
+	display: block;
+}
+
+.list-litwo-hover a:hover {
+	background: #ff3232;
+}
+
+.main {
+	width: 100%;
+	background: #fae8c8;
+}
+
+.main-inner {
+	width: 990px;
+	margin: 0 auto;
+}
+
+.title {
+	width: 100%;
+	height: 120px;
+	text-align: center;
+	line-height: 120px;
+	color: #222;
+	font-size: 24px;
+}
+
+.middle1 {
+	width: 100%;
+	height: 302px;
+	display: flex;
+	flex-flow: row;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	background: white;
+}
+
+.middle1 :hover {
+	background: #fcfcfc;
+}
+
+.middle1-one {
+	height: 72px;
+	width: 301px;
+	padding: 14px;
+	cursor: pointer;
+}
+
+.middle1-one .p1 {
+	height: 72px;
+	width: 219px;
+	padding-left: 10px;
+	float: left;
+}
+
+.middle1-one img {
+	width: 72px;
+	height: 72px;
+	display: block;
+	float: left;
+}
+
+.middle1-one h2 {
+	color: #333;
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 36px;
+	height: 36px;
+}
+
+.middle1-one p {
+	color: #999;
+	font-size: 14px;
+	line-height: 18px;
+}
+
+.middle2 {
+	width: 339px;
+	height: 600px;
+	margin: 0 auto;
+	overflow: hidden;
+	background: url(../img/meishi3/iphone6s.png)no-repeat;
+}
+.middle2  a{
+	width: 219px;
+	height: 390px;
+	display: block;
+	margin-left: 60px;
+	margin-top: 64px;
+}
+.middle3 {
+	width: 100%;
+	background: black;
+}
+
+.foot-top {
+	width: 990px;
+	margin: 0px auto;
+	margin-top: 40px;
+}
+
+
+
+.foot-top .pp {
+	color: #fff;
+	font-size: 12px;
+	line-height: 24px;
+	padding: 20px 0px;
+	padding-top: 20px;
+	width: 490px;
+	float: left;
+	padding-top: 80px;
+	background: url(../img/meishi3/logo_f.png)0px 15px no-repeat;
+}
+
+.foot-top strong {
+	font-size: 16px;
+	padding: 0px 4px;
+	color: #ff3232;
+	font-weight: bold;
+}
+
+.clear:before,
+.clear:after {
+	/*.clear:before 不占位*/
+	content: '';
+	display: table;
+	/*转换成块元素*/
+}
+
+.clear:after {
+	clear: both;
+}
+
+.clear {
+	zoom: 1;
+}
+
+.foot-top .pp-right {
+	float: right;
+	padding-top: 20px;
+}
+
+.foot-top .pp-right li {
+	width: 105px;
+	margin-left: 20px;
+	position: relative;
+	height: 160px;
+	float: left;
+}
+
+.foot-top .pp-right li .a1 {
+	display: block;
+	height: 105px;
+	width: 105px;
+	background: url(../img/meishi3/footerlinks.png)no-repeat;
+
+}
+.foot-top .pp-right li .a1 span{
+	height: 26px;
+	line-height: 26px;
+	display: block;
+	width: 105px;
+	color: #fff;
+	text-align: center;
+	padding-top: 79px;
+	font-size: 13px;
+}
+.foot-top .pp-right li .aa {
+	background-position: 0 0;
+}
+
+.foot-top .pp-right li .ab {
+	background-position: -105px 0;
+}
+
+.foot-top .pp-right li .ac {
+	background-position: -210px 0;
+}
+
+.foot-top .pp-right li .ad {
+	background-position: -315px 0;
+}
+
+.foot-top .pp-right p {
+	width: 105px;
+	color: #999;
+	line-height: 18px;
+	height: 36px;
+	padding: 9px 0px;
+	text-align: center;
+}
+.foot-top .pp-right p a{
+	color: #999;
+	font-size: 12px;
+}
+.foot-top .pp-right p a:hover{
+	text-decoration: underline;
+}
+
+
+.foot-down {
+	width: 990px;
+	margin: 0px auto;
+	border-top: 1px solid #444;
+	text-align: center;
+	padding: 10px 0px 30px 0px;
+}
+.foot-down .p1 a{
+	color: #999;
+	padding: 0px 10px;
+	line-height: 24px;
+	height: 24px;
+	display: inline-block;
+	font-size: 12px;
+}
+.foot-down .p1 a:hover{
+	background: red;
+}
+.foot-down .p2{
+	height: 24px;
+	line-height: 24px;
+	color: #666;
+	font-size: 12px;
+}
+.foot-down .p2 a{
+	color: #666666;
+	font-size: 12px;
+}
+.foot-down .p2 i{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+}
+
+/*  */
+
+.zy{
+	background: #fff;
+	width: 990px;
+	margin: 0px auto;
+}
+
+.zy-left{
+	height: 600px;
+	width: 339px;
+	background: url(../img/meishi3/iphone6s.png) 0px 0px no-repeat;
+	float: left;
+	margin-top: 40px;
+	margin-left: 10px;
+}
+.zy-left a{
+	width: 219px;
+    height: 390px;
+    display: block;
+    margin-left: 60px;
+    margin-top: 64px;
+}
+.zy-right{
+	float: left;
+	width: 641px;  
+}
+.zy-one{
+	padding: 40px 20px 10px 0px;
+}
+.zy-one p{
+	font-size: 14px;
+	line-height: 24px;
+	color: #666;
+	padding: 10px 0px;
+}
+.zy-two h3{
+	font-size: 24px;
+	color: #333;
+	line-height: 80px;
+}
+.zy-two li{
+	float: left;
+	height: 64px;
+	width: 160px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+.zy-two li .aa{
+	display: block;
+	height: 64px;
+	width: 160px;
+	background: url(../img/meishi3/msjad_btns.png)no-repeat;
+}
+.zy-two li .a1{
+	background-position: 0 0;
+}
+.zy-two li .a2{
+	background-position: -320px 0px;
+}
+.zy-two li .a1:hover{
+	background-position:0px -64px;
+}
+.zy-two li .a2:hover{
+	background-position: -320px -64px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
